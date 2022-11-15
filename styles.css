@@ -1,0 +1,515 @@
+/* Duolingo */
+
+body {
+    background: #252525 !important;
+    /* color: #999 !important; */
+    color: #c3c3c3 !important;
+    border: 0 !important;
+}
+
+/* Top bar */
+._3g2C1 {
+    background-color: #252525 !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Horizontal bar below user info at the top of profile page */
+._91Tq4 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Left main navigation: "Learn, Stories, Schools, Shop, Classes, Podcast, Words etc". */
+._1JSRd {
+    background-color: transparent !important;
+}
+
+/* League and XP Progress blocks on page /learn */
+._3ZuGY {
+    /* background-color: rgba(255, 255, 255, 0.05) !important; */
+    background-color: transparent !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Locked tier background on skill tree */
+/* ._399cc is the bottom bar during practice */
+.GVcJz, ._3M0r3, ._3izPU, ._399cc {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    /* border: 2px solid rgba(255, 255, 255, 0.05) !important; */
+    border: 0 !important;
+}
+/* Locked tier background on skill tree TOP AND BOTTOM MASK */
+._1jKFt {
+    -webkit-mask-image: radial-gradient(circle at 50% -6px,transparent 60px,#000 0) !important;
+}
+._2TPZF {
+    -webkit-mask-image: radial-gradient(circle at 50% calc(100% + 6px),transparent 60px,#000 0) !important;
+}
+
+/* Border above and below "Suggested Stories" nested in the learning tree on page /learn */
+.Xzfbf {
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Suggested Stories background color nested in skill tree on page /learn */
+/* Removes background on /words */
+._3esGm, ._2nHL0, ._3PnTi, ._21Icd {
+    background-color: transparent !important;
+}
+
+/* Borders around sections */
+._3Pm6e, .BMuTY, ._1aS6c, .aHeZm, ._2vsBg {
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+/* Horizontal lines inside of the above profile boxes */
+._2GEam, ._2hN48, ._2gk65, ._1G0um, ._2PZ8z, ._15J0U {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Profile page text: titles */
+h1, h2, h3, h4, .k6hKX, .wWY_2, .hOVdl, ._1VA3z, .hOdmy, ._3mABf, .Mr3if, .yXp5g, ._1qdLM, ._1eZU8, ._1V_qq, ._1MTUU, .a1TnJ, ._1CsoA, .saQLX, ._2XgDS, .Km5MI   {
+    color: #c3c3c3 !important;
+}
+
+/* Profile page text: subtitles text */
+._1soKk, ._2nvdt, ._315yA, .FRf9s, ._2qakO, .WOZnx:before, ._15qam, ._2Ce44, ._1lJ31, ._3tLz5, ._3YkaQ, .ruQ9B, .XWge1, ._3xynE, ._1LpFA, ._15-md, ._2k8ad, ._1wy04, ._2igzU._1Wk_o, ._2igzU._1Wk_o, ._2igzU._1Wk_o {
+    color: #888 !important;
+}
+
+hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Checkpoint badge / correct/wrong answer badge / Quit practice pop-up */
+._17s2H, ._2VrUB, ._3gK3K, ._1qYD7, .xzblA, ._2QKoe, ._11VOS {
+    background: #252525 !important;
+}
+
+/* Edit profile picture icon */
+._13mC4 {
+    border: 4px solid #252525 !important;
+}
+
+/* Practice mistakes button outline */
+._2scgQ {
+    --outline-color: #252525 !important;
+}
+
+/* You on the leaderboard */
+._3QwaZ.mKH7H {
+    color: #58a700 !important;
+}
+
+.yXp5g:hover, ._1qdLM:before, ._1qdLM:after, .YkUbe, .g_Zzj:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.Dsx7N:hover:after {
+    width: 25px;
+    height: 25px;
+}
+
+/* Practice button bottom left (Dumbell) */
+.WOZnx:before {
+    background-color: transparent !important;
+    border: 2px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: var(--web-ui_button-border-radius,12px);
+    bottom: 0 px !important;
+    box-shadow: 0 0px 0 var(--__internal__border-color) !important;
+    content: "";
+    left: 0px !important;
+    position: absolute;
+    right: 0px !important;
+    top: 0px !important;
+    z-index: -1 !important;
+}
+
+/* Stories and friend updates backgrounds */
+._1zsgz, ._2nLk_, ._2ikVT, ._3IvEG {
+    background-color: transparent !important;
+}
+
+/* Matching pairs text color */
+._1O290 {
+    --web-ui_button-color: #888 !important;
+}
+
+/* Background correct answer / mic off */
+._3e9O1, ._3QwaZ, .TVxEB { 
+    background-color: #405a2d !important;
+}
+
+._3vF5k {
+    background-color: #5a2d2f !important;
+}
+
+._2NxDA {
+    background-color: #594f2d !important;
+}
+
+/* Check button during practice */
+._2NolF.LhRk3:not(._1rl91):before, ._2NolF:disabled:not(._1rl91):before {
+    background-color: var(--web-ui_button-background-color-disabled, rgba(255, 255, 255, 0.1)) !important;
+}
+
+/* Text field during typing practices */
+._1QDX9, ._2ti2i, ._1O_I2 {
+    background-color: transparent !important;
+    color: #888 !important;
+    border: 2px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Word(s) in the middle of sentences during practice */
+._17nEt {
+    color: #888 !important;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+._17nEt:disabled {
+    -webkit-text-fill-color: #888 !important;
+}
+
+/* Speech bubbles during practice */
+._1KUxv, ._3p5e9 {
+    background-color: #303030 !important;
+    border: 2px solid #303030 !important;
+}
+
+/* Practice choice buttons */
+._3C_oC:before {
+    background-color: transparent !important;
+    border: 2px solid #303030 !important;
+    box-shadow: 0 0 0 transparent !important;
+}
+
+._2-OmZ {
+    color: #888 !important;
+}
+
+._3C_oC.disCS, ._3C_oC:active:not(.hfPEz) {
+    color: #1899d6 !important;
+}
+
+/* If display none above, use this to make the XP reward use full width */
+._1jZrU {
+    width: 100% !important;
+}
+
+/* Practice review screen */
+.SQR8J {
+    border-left: 1px solid rgba(255, 255, 255, 0.1) !important;
+    /* This removes the ad block on the right */
+    display: none !important;
+}
+
+/* Divider inside normal speed speech and slow speech bubbles */
+._3ANq3>:not(:last-child) {
+    border-right: 1px solid #252525 !important;
+}
+
+/* Removes adblock ad on front page */
+._3bfsh {
+    display: none !important;
+}
+
+/* Words table adjustments */
+.g_Zzj td {
+    border-color: rgba(255, 255, 255, 0.1) !important;
+    border-width: 0 1px 1px 1px !important;
+    color: #888 !important;
+}
+
+/* Streak box */
+._1p_Bp, ._2b2qG, ._3tCYa, ._2bk_b th, .UpoCK {
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+._2bk_b th {
+    background: rgba(255, 255, 255, 0.1) !important;
+}
+
+._2b2qG {
+    color: #888 !important;
+}
+
+._1p_Bp:after {
+    background-color: transparent !important;
+}
+
+._3PY9l {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.y2jVU {
+    -webkit-filter: invert(85%);
+}
+
+/* Hover menu stuff */
+._2WP_P, ._1jxVm, ._3uAwj {
+    color: #888 !important;
+}
+
+._1ccgT, .PqXfk, .y88kh {
+    color: #c3c3c3 !important;
+}
+
+._3sYli:first-of-type, ._11VOS, ._1HxVp {
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+._3sYli {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Remove the white glow from perfect score screen */
+._3plTW {
+    background: none !important;
+}
+
+/* Player footer */
+._399cc {
+    background-color: #252525 !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Legendary progress bar circle checkpoints */
+._4rplQ, ._2YmyD {
+    background-color: #303030 !important;
+}
+
+/* When losing a life */
+._3XZrb {
+    opacity: 0.1;
+}
+
+/* Matching pairs number boxes */
+/* ._3Ixn- is "fill in the blanks table outer border */
+._2S0Zh, ._3Ixn-  {
+    border: 2px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.V3M4U {
+    outline:#303030 !important;
+}
+
+.fvNJ1 {
+    background: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* TIPS PAGE 
+------------------------------------------------------------------------------ */
+
+/* Tips page section titles */
+/* Ok this is not idea, it actually all the text on the tips page, but at least it's readable. */
+._1WCLL span {
+    color: #888 !important;
+}
+
+/* Background color of example boxes */
+._2gwdz {
+    background-color: transparent !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Table background */
+._1Dr4X {
+    background-color: transparent !important;
+}
+
+/* Table borders */
+._1eBPl ._1lcy6 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+._1lcy6:first-of-type {
+    border-left: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+._1lcy6 {
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Table header background color */
+._37c8P {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Subtitle Stories, both modes complete */
+
+.jcVkl {
+    color: #888 !important;
+}
+
+/* Stories text to read.
+Keep an eye on this one, it broke earlier */
+._2igzU._3LUrt._2P5W7 {
+    color: #888;
+}
+
+/* The dotted line below story lines */
+._2igzU._1Wk_o {
+    background-image: linear-gradient(90deg,#888 60%,hsla(0,0%,100%,0) 0) !important;
+}
+
+/* Things like ? and ! marks */
+._2igzU._3LUrt {
+    color: #c3c3c3;
+}
+
+/* Speech bubble "tap" in stories. Since haven't been able to figure out how to recolor, hide instead */
+/* ._2lvkY:before, ._1e1GW:before {
+    display: none;
+}
+
+._2lvkY {
+    background-color: #303030 !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+} */
+
+/* Horizontal lines dividing account sections in profile/settings drop down (top right corner menu) */
+._1KF6e {
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+._1KF6e:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/*  Account settings right side menu hover background */
+._1eSrF {
+    background: rgba(255, 255, 255, 0.1) !important;
+}
+
+.rmbzf:hover {
+    background: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Manage courses divider lines */
+._3I-zC {
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+._3I-zC:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Border around Super Duolingo perks */
+._3WmPv {
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Language selector drop down menu changes */
+/* Divider line */
+._2WiQc {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: #c3c3c3 !important;
+}
+
+._2WiQc:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Active language */
+._1Gh9e {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.uOkpe {
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.uOkpe:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Notification overlay window */
+/* X button */
+.FrL-W {
+    background: #303030 !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Box */
+._3lUbm {
+    background: #252525 !important;
+}
+
+/* Items */
+._1OtjJ {
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Friend updates celebration button */
+._19UAQ {
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+._2l3ju {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Shop power up divider line */
+._8roiG {
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Achievements block on friends profile page */
+._1QiqV {
+    border:1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.SEEvZ {
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: #c3c3c3 !important;
+}
+
+/* Cracked skills that hasn't been practiced in a while */
+/* Can the same method be used for Story speech bubbles? */
+._1m7gz {
+    -webkit-filter: invert(85%);
+}
+
+/* Language Courses for "Language" speakers */
+._2PVaI {
+    background-color: transparent !important;
+}
+
+.zAIdz {
+    background-color: #303030 !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.zA0zE {
+    border-width: 1px !important;
+}
+
+._3ly0h {
+    color: #c3c3c3 !important;
+}
+
+/* Settings page */
+input[type=checkbox] {
+    background: transparent !important;
+}
+
+/* input field */
+._2gBEa, ._3ntDw, ._3Yh_i {
+    background: #303030 !important;
+    border: 0 !important;
+    color: #888 !important;
+}
+/* Slider background */
+.eP5n4 {
+    background: #303030 !important;
+}
+
+._1oj-F {
+    color: #c3c3c3 !important;
+}
+
+/* Hint divider line */
+/* ._2Gskp {
+    border-top: 1px solid red !important;
+} */
