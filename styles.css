@@ -140,7 +140,7 @@ hr {
     background-color: #405a2d !important;
 }
 
-._3vF5k {
+._3vF5k, .g4lHU {
     background-color: #5a2d2f !important;
 }
 
@@ -225,6 +225,15 @@ hr {
     border: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
+._1lUzF {
+    border: solid rgba(255, 255, 255, 0.1) !important;
+    border-width: 1px 1px 0 !important;
+}
+
+._1lUzF:after {
+    background-color: transparent !important;
+}
+
 ._2bk_b th {
     background: rgba(255, 255, 255, 0.1) !important;
 }
@@ -243,6 +252,10 @@ hr {
 
 .y2jVU {
     -webkit-filter: invert(85%);
+}
+
+._2Y0pF {
+    border-top: 2px solid transparent !important;
 }
 
 /* Hover menu stuff */
