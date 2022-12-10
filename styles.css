@@ -23,6 +23,16 @@ body {
     background-color: transparent !important;
 }
 
+._2BPAp {
+    border: none !important;
+    background-color: #303030 !important;
+}
+
+._1eTnJ:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    color: #777 !important;
+}
+
 /* League and XP Progress blocks on page /learn */
 ._3ZuGY {
     /* background-color: rgba(255, 255, 255, 0.05) !important; */
@@ -43,6 +53,11 @@ body {
 }
 ._2TPZF {
     -webkit-mask-image: radial-gradient(circle at 50% calc(100% + 6px),transparent 60px,#000 0) !important;
+}
+
+/* Skill tree unit number */
+._3kmfH {
+    color: white !important;
 }
 
 /* Border above and below "Suggested Stories" nested in the learning tree on page /learn */
@@ -67,12 +82,12 @@ body {
 }
 
 /* Profile page text: titles */
-h1, h2, h3, h4, .k6hKX, .wWY_2, .hOVdl, ._1VA3z, .hOdmy, ._3mABf, .Mr3if, .yXp5g, ._1qdLM, ._1eZU8, ._1V_qq, ._1MTUU, .a1TnJ, ._1CsoA, .saQLX, ._2XgDS, .Km5MI   {
+h1, h2, h3, h4, .k6hKX, .wWY_2, .hOVdl, ._1VA3z, .hOdmy, ._3mABf, .Mr3if, .yXp5g, ._1qdLM, ._1eZU8, ._1V_qq, ._1MTUU, .a1TnJ, ._1CsoA, .saQLX, ._2XgDS, .Km5MI, .F7s-7   {
     color: #c3c3c3 !important;
 }
 
 /* Profile page text: subtitles text */
-._1soKk, ._2nvdt, ._315yA, .FRf9s, ._2qakO, .WOZnx:before, ._15qam, ._2Ce44, ._1lJ31, ._3tLz5, ._3YkaQ, .ruQ9B, .XWge1, ._3xynE, ._1LpFA, ._15-md, ._2k8ad, ._1wy04, ._2igzU._1Wk_o, ._2igzU._1Wk_o, ._2igzU._1Wk_o {
+._1soKk, ._2nvdt, ._315yA, .FRf9s, ._2qakO, .WOZnx:before, ._15qam, ._2Ce44, ._1lJ31, ._3tLz5, ._3YkaQ, .ruQ9B, .XWge1, ._3xynE, ._1LpFA, ._15-md, ._2k8ad, ._1wy04, ._2igzU._1Wk_o, ._2igzU._1Wk_o, ._2igzU._1Wk_o, ._35HQJ {
     color: #888 !important;
 }
 
@@ -101,7 +116,7 @@ hr {
     color: #58a700 !important;
 }
 
-.yXp5g:hover, ._1qdLM:before, ._1qdLM:after, .YkUbe, .g_Zzj:hover {
+.yXp5g:hover, ._1qdLM:before, ._1qdLM:after, .YkUbe, .g_Zzj:hover, .InGFc:hover {
     background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
@@ -110,9 +125,14 @@ hr {
     height: 25px;
 }
 
+/* Leaderboard top bar */
+._2p1op {
+    background-color: #252525 !important;
+}
+
 /* Practice button bottom left (Dumbell) */
 .WOZnx:before {
-    background-color: transparent !important;
+    background-color: var(--web-ui_button-background-color,#252525) !important;
     border: 2px solid rgba(255, 255, 255, 0.1) !important;
     border-radius: var(--web-ui_button-border-radius,12px);
     bottom: 0 px !important;
@@ -135,8 +155,8 @@ hr {
     --web-ui_button-color: #888 !important;
 }
 
-/* Background correct answer / mic off */
-._3e9O1, ._3QwaZ, .TVxEB { 
+/* Background correct / wrong answer / mic off */
+._3e9O1, ._3QwaZ, .TVxEB, .IkLCT._1DcsO, ._3_lqo { 
     background-color: #405a2d !important;
 }
 
@@ -176,7 +196,34 @@ hr {
     border: 2px solid #303030 !important;
 }
 
+/* Matching pairs audio samples background  */
+.pmjld {
+    --web-ui_button-background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Start lesson button when gold */
+._1UZS3 .zylDf {
+    background-color: #ffc800 !important;
+}
+
+/* Word help on hover */
+/* ._2Gskp {
+    border-top: 2px solid rgba(255, 255, 255, 0.05) !important;
+}
+
+._1rooe {
+    border-bottom: 2px solid inherit !important;
+}
+
+._3xnDt {
+    border-left: 2px solid rgba(255, 255, 255, 0.05) !important;
+} */
+
 /* Practice choice buttons */
+._3C_oC {
+    border-width: 2px !important;
+}
+
 ._3C_oC:before {
     background-color: transparent !important;
     border: 2px solid #303030 !important;
@@ -189,6 +236,7 @@ hr {
 
 ._3C_oC.disCS, ._3C_oC:active:not(.hfPEz) {
     color: #1899d6 !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
 /* If display none above, use this to make the XP reward use full width */
@@ -413,6 +461,14 @@ Keep an eye on this one, it broke earlier */
     border: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
+/* Background on big super ad on frontpage */
+/* This code is currently using "!important" so I can't override it. This style will fix itself if changed in the future */
+/* REMOVE DISPLAY NONE EVERY NOW AND THEN TO CHECK IF IT'S FIXED */
+.Ekspr {
+    background-color: transparent !important;
+    display: none;
+}
+
 /* Language selector drop down menu changes */
 /* Divider line */
 ._2WiQc {
@@ -526,3 +582,25 @@ input[type=checkbox] {
 /* ._2Gskp {
     border-top: 1px solid red !important;
 } */
+
+/* Status icon bubble on avatar */
+._1o6AI {
+    background: #303030 !important;
+    border: 2px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Guidebook background */
+._2fqcw {
+    background-color: transparent !important;
+}
+
+/* Celebrated button on friends updates */
+.t1Hcp {
+    --web-ui_button-background-color: rgba(255,255,255,0.1) !important;
+}
+
+/* Reactions avatar border */
+._2VmmU {
+    background-color: rgba(255,255,255,0.1) !important;
+    border: 4px solid rgba(255,255,255,0.1) !important;
+}
