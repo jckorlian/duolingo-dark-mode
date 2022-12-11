@@ -168,6 +168,80 @@ hr {
     background-color: #594f2d !important;
 }
 
+/* Alphabet background color fixes */
+.d2gYz {
+    --web-ui_button-background-color: #594f2d !important;
+}
+
+._3OTNX {
+    background-color: inherit !important;
+    border: 2px solid rgba(255,255,255,0.1) !important;
+}
+
+._2cQin {
+    color: inherit !important;
+}
+
+._2cQin:after, ._2cQin:before {
+    background: rgba(255,255,255,0.1) !important;
+    height: 1px !important;
+}
+
+._3hNLs {
+    background-color: #303030 !important;
+}
+
+.rsHKZ {
+    border: 1px solid rgba(255,255,255,0.1) !important;
+}
+
+._3Z3NB {
+    border-bottom: 1px solid rgba(255,255,255,0.1) !important;
+}
+
+._3nCPn {
+    border-bottom: 1px solid rgba(255,255,255,0.1) !important;
+}
+
+.AVekF, ._1c25o>.hWQ2W {
+    border-bottom: 1px solid #1cb0f6 !important;
+}
+
+._196g_:hover {
+    border-bottom: 1px solid #1cb0f6 !important;
+    margin-bottom: -1px !important;
+}
+
+._2SDmF {
+    color: #888 !important;
+}
+
+._2nAgU {
+    color: inherit !important;
+}
+
+._3LCdE, .UuQf0 {
+    color: #cd7900 !important;
+}
+
+/* From add new course */
+._14oJt, ._1OeGd {
+    color: inherit !important;
+}
+
+._1xIvJ, ._3qIya, ._2aUvg {
+    color: #888 !important;
+}
+
+._374bD {
+    border-top: 1px solid rgba(255,255,255,0.1) !important;
+}
+
+.HnjwC {
+    background-color: #303030 !important;
+    border: 2px solid rgba(255,255,255,0.1) !important;
+}
+
 /* Check button during practice */
 ._2NolF.LhRk3:not(._1rl91):before, ._2NolF:disabled:not(._1rl91):before {
     background-color: var(--web-ui_button-background-color-disabled, rgba(255, 255, 255, 0.1)) !important;
@@ -603,4 +677,13 @@ input[type=checkbox] {
 ._2VmmU {
     background-color: rgba(255,255,255,0.1) !important;
     border: 4px solid rgba(255,255,255,0.1) !important;
+}
+
+/* Fix for character tests like hiragana */
+._2KRgS, ._2QCqu, ._3pn9e, ._3mxWC {
+    color: inherit !important;
+}
+
+._11apW {
+    border: 2px solid #303030 !important;
 }
