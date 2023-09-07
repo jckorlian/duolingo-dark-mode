@@ -1,7 +1,7 @@
 /* Duolingo */
 
 body {
-    background: #252525 !important;
+    background: #202020 !important;
     /* color: #999 !important; */
     color: #c3c3c3 !important;
     border: 0 !important;
@@ -9,17 +9,17 @@ body {
 
 /* Top bar */
 ._3g2C1 {
-    background-color: #252525 !important;
+    background-color: #202020 !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
-/* Horizontal bar below user info at the top of profile page */
-._91Tq4 {
+/* Horizontal bar below user info at the top of profile page +++ */
+._91Tq4, ._26lYC, ._2S0I8, .jR7mi>:not(:last-of-type), ._3LIgy {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
 /* Left main navigation: "Learn, Stories, Schools, Shop, Classes, Podcast, Words etc". */
-._1JSRd {
+._1JSRd, .b8EPD {
     background-color: transparent !important;
 }
 
@@ -28,16 +28,24 @@ body {
     background-color: #303030 !important;
 }
 
-._1eTnJ:hover {
+._1eTnJ:hover, ._2IhxH:not(.hgg7p):hover, .Ku1Wr:hover {
     background-color: rgba(255, 255, 255, 0.1) !important;
-    color: #777 !important;
+} 
+
+._27uXD, ._3G8Us:hover,.p_bBD:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border: 2px solid rgba(255, 255, 255, 0.1) !important;
 }
 
-/* League and XP Progress blocks on page /learn */
-._3ZuGY {
+/* League and XP Progress blocks on page "/learn" + monthly badges + friend suggestions */
+._3ZuGY, ._20Ytt, ._3KHXM, ._2Ojej, ._2vsBg, .nsH6y, ._1loOn {
     /* background-color: rgba(255, 255, 255, 0.05) !important; */
     background-color: transparent !important;
     border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.JNn3d {
+    border: 4px solid #303030 !important;
 }
 
 /* Locked tier background on skill tree */
@@ -73,22 +81,42 @@ body {
 }
 
 /* Borders around sections */
-._3Pm6e, .BMuTY, ._1aS6c, .aHeZm, ._2vsBg {
+._3Pm6e, .BMuTY, ._1aS6c, .aHeZm {
     border: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 /* Horizontal lines inside of the above profile boxes */
-._2GEam, ._2hN48, ._2gk65, ._1G0um, ._2PZ8z, ._15J0U {
+._2GEam, ._2hN48, ._2gk65, ._1G0um, ._2PZ8z, ._15J0U, ._30OwD, ._3loCP, .b8EPD {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
+/* Quest badge title */
+._2HB1v, ._26a4V {
+    color: #202020 !important;
+}
+
 /* Profile page text: titles */
-h1, h2, h3, h4, .k6hKX, .wWY_2, .hOVdl, ._1VA3z, .hOdmy, ._3mABf, .Mr3if, .yXp5g, ._1qdLM, ._1eZU8, ._1V_qq, ._1MTUU, .a1TnJ, ._1CsoA, .saQLX, ._2XgDS, .Km5MI, .F7s-7   {
+h1, h2, h3, h4, .k6hKX, .wWY_2, .hOVdl, ._1VA3z, .hOdmy, .Mr3if, .yXp5g, ._1qdLM, ._1eZU8, ._1V_qq, ._1MTUU, .a1TnJ, ._1CsoA, .saQLX, ._2XgDS, .Km5MI, .F7s-7, ._3HNwo, ._282DW, ._2enos, .GjJQd, ._3oF3u, ._2I8yp, ._1LruX, ._1PuQy, ._3GElo, .oiAw-, .tPtzQ   {
     color: #c3c3c3 !important;
 }
 
 /* Profile page text: subtitles text */
-._1soKk, ._2nvdt, ._315yA, .FRf9s, ._2qakO, .WOZnx:before, ._15qam, ._2Ce44, ._1lJ31, ._3tLz5, ._3YkaQ, .ruQ9B, .XWge1, ._3xynE, ._1LpFA, ._15-md, ._2k8ad, ._1wy04, ._2igzU._1Wk_o, ._2igzU._1Wk_o, ._2igzU._1Wk_o, ._35HQJ {
+._1soKk, ._2nvdt, ._315yA, .FRf9s, ._2qakO, .WOZnx:before, ._15qam, ._2Ce44, ._1lJ31, ._3tLz5, ._3YkaQ, .ruQ9B, .XWge1, ._3xynE, ._1LpFA, ._15-md, ._2k8ad, ._1wy04, ._2igzU._1Wk_o, ._2igzU._1Wk_o, ._2igzU._1Wk_o, ._35HQJ, ._1mTpa, ._1Yvlr, ._3Fznl, .JpncV, ._1nO95, ._3mABf, ._1h2TJ, ._3d4Mv, ._1bXEp, .C21s9, ._21MzE, ._39Kkf, ._22J27, ._2mWrZ, ._1psAw {
     color: #888 !important;
+}
+
+/* View more - follower list */
+._3mABf {
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Add friends */
+._282DW {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Following list */
+._1mYNy:last-child {
+    border-bottom: none !important;
 }
 
 hr {
@@ -96,19 +124,19 @@ hr {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
-/* Checkpoint badge / correct/wrong answer badge / Quit practice pop-up */
-._17s2H, ._2VrUB, ._3gK3K, ._1qYD7, .xzblA, ._2QKoe, ._11VOS {
-    background: #252525 !important;
+/* Checkpoint badge / correct/wrong answer badge / Quit practice pop-up / XP at end of lesson */
+._17s2H, ._2VrUB, ._3gK3K, ._1qYD7, .xzblA, ._2QKoe, ._11VOS, .OYkrH, .xg-WN, ._35Ena, ._2yJFi, ._3ywLe, ._2Kxv6  {
+    background: #202020 !important;
 }
 
 /* Edit profile picture icon */
 ._13mC4 {
-    border: 4px solid #252525 !important;
+    border: 4px solid #202020 !important;
 }
 
 /* Practice mistakes button outline */
 ._2scgQ {
-    --outline-color: #252525 !important;
+    --outline-color: #202020 !important;
 }
 
 /* You on the leaderboard */
@@ -127,12 +155,12 @@ hr {
 
 /* Leaderboard top bar */
 ._2p1op {
-    background-color: #252525 !important;
+    background-color: #202020 !important;
 }
 
 /* Practice button bottom left (Dumbell) */
 .WOZnx:before {
-    background-color: var(--web-ui_button-background-color,#252525) !important;
+    background-color: var(--web-ui_button-background-color,#202020) !important;
     border: 2px solid rgba(255, 255, 255, 0.1) !important;
     border-radius: var(--web-ui_button-border-radius,12px);
     bottom: 0 px !important;
@@ -145,8 +173,8 @@ hr {
     z-index: -1 !important;
 }
 
-/* Stories and friend updates backgrounds */
-._1zsgz, ._2nLk_, ._2ikVT, ._3IvEG {
+/* Stories-, friend updates-, daily quests-, league backgrounds */
+._1zsgz, ._2nLk_, ._2ikVT, ._3IvEG, ._20Ytt {
     background-color: transparent !important;
 }
 
@@ -156,11 +184,12 @@ hr {
 }
 
 /* Background correct / wrong answer / mic off */
-._3e9O1, ._3QwaZ, .TVxEB, .IkLCT._1DcsO, ._3_lqo { 
+._3e9O1, ._3QwaZ, .TVxEB, .IkLCT, ._3_lqo, .C21s9 { 
     background-color: #405a2d !important;
+    background: #405a2d !important;
 }
 
-._3vF5k, .g4lHU {
+._3vF5k, .g4lHU, ._2TVVG.lk2xf {
     background-color: #5a2d2f !important;
 }
 
@@ -237,9 +266,9 @@ hr {
     border-top: 1px solid rgba(255,255,255,0.1) !important;
 }
 
-.HnjwC {
-    background-color: #303030 !important;
-    border: 2px solid rgba(255,255,255,0.1) !important;
+.HnjwC, ._2bIJV {
+    background-color: #202020 !important;
+    border: 1px solid rgba(255,255,255,0.1) !important;
 }
 
 /* Check button during practice */
@@ -327,7 +356,11 @@ hr {
 
 /* Divider inside normal speed speech and slow speech bubbles */
 ._3ANq3>:not(:last-child) {
-    border-right: 1px solid #252525 !important;
+    border-right: 1px solid #202020 !important;
+}
+
+._1JSRd {
+    border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
 /* Removes adblock ad on front page */
@@ -368,7 +401,7 @@ hr {
     background-color: transparent !important;
 }
 
-._3PY9l {
+._3PY9l, .brXUB {
     background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
@@ -404,7 +437,7 @@ hr {
 
 /* Player footer */
 ._399cc {
-    background-color: #252525 !important;
+    background-color: #202020 !important;
     border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
@@ -569,19 +602,28 @@ Keep an eye on this one, it broke earlier */
 
 /* Notification overlay window */
 /* X button */
-.FrL-W {
+.FrL-W, ._1h2TJ {
     background: #303030 !important;
     border: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
 /* Box */
-._3lUbm {
-    background: #252525 !important;
+._3lUbm, ._2Z3FY {
+    background: #202020 !important;
 }
 
 /* Items */
 ._1OtjJ {
     border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Border */
+._2feJW {
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+._3loCP:last-child, ._2GEam:last-child {
+    border: none !important;
 }
 
 /* Friend updates celebration button */
@@ -658,7 +700,7 @@ input[type=checkbox] {
 } */
 
 /* Status icon bubble on avatar */
-._1o6AI {
+._1o6AI, ._2WS1S {
     background: #303030 !important;
     border: 2px solid rgba(255, 255, 255, 0.1) !important;
 }
@@ -686,4 +728,160 @@ input[type=checkbox] {
 
 ._11apW {
     border: 2px solid #303030 !important;
+}
+
+/* Friends updates button */
+._3xoy3 {
+    color: #888 !important;
+}
+
+/* Show tips "forced" popup during lessons */
+._1Mo5S {
+    border-bottom: 1px solid rgba(255,255,255,0.1) !important;
+}
+
+/* Leaderboard after lesson */
+._1c_8A {
+    background-color: #405a2d !important;
+    color: #c3c3c3!important;
+}
+
+.CeAwM {
+    border: 1px solid #303030 !important;
+}
+
+/* Experimenting with pop-up box scrollbars */
+._2XWTG {
+    --modal-padding: 24px !important;
+    max-height: none !important;
+}
+
+._2Z3FY {
+    height: auto !important;
+}
+
+/* Terms, privacy etc */
+._3wZWk {
+    background-color: transparent !important;
+}
+
+/* Search for friends / Invite friends */
+.aEnZV, ._3CNP- {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border: 0 !important;
+}
+
+._2q1-e, ._3nU_m {
+    color: #888 !important;
+}
+
+/* My courses drop down menu */
+
+._1vbHN {
+    border-bottom: 1px solid rgba(255,255,255,0.1) !important;
+}
+
+._2Ugrj {
+    border-top: 1px solid rgba(255,255,255,0.1) !important;
+    color: var(--web-ui_button-color,rgb(var(--color-macaw))) !important;
+}
+
+._2Ugrj:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    color: var(--web-ui_button-color,rgb(var(--color-macaw))) !important;
+}
+
+._3oF3u:hover, .rupNE {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+._3oF3u:active {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Speech bubbles */
+._2t35G:after {
+    border-right: 18px solid #303030 !important;
+    border-top: 18px solid transparent !important;
+}
+
+._2t35G:before {
+    border-right: 22px solid #303030 !important;
+    border-top: 22px solid transparent !important;
+}
+
+._21IEC, ._29e-M {
+    background-color: #303030 !important;
+    border: 0 !important;
+}
+._2Iqyl {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Mobile size - fixes -------------------------------------------------- */
+
+/* Settings background */
+._3jjBK {
+    background-color: transparent !important;
+}
+
+/* Profile header bottom border */
+._3GElo {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Invite friends */
+._3Ee1p {
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* White sticky bar - top */
+._1PuQy {
+    background-color: #202020 !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Whit sticky navigation - bottom */
+._3rtds {
+    background: #202020 !important;
+    border-top: 1px solid rgba(255,255,255,0.1) !important;
+}
+
+/* Quests top navigation */
+._3ZTax {
+    border-bottom: 2px solid #202020 !important;
+    color: #303030 !important;
+}
+
+._3keDY {
+    color: #c3c3c3 !important;
+}
+
+._1SrLp {
+    background: #202020 !important;
+    border-bottom: 1px solid rgba(255,255,255,0.1) !important;
+}
+
+._3TrZ1 {
+    color: #202020 !important;
+    opacity: 0.5 !important;
+}
+
+/* Clock image */
+.R-sYO {
+    filter: invert(1);
+}
+
+/* Efficacy -------------------------------------------------- */
+._2igau li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+._2igau li:last-child {
+    border: none !important;
+}
+
+._1Bio6 {
+    background-color: #202020 !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
 }

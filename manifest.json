@@ -2,10 +2,10 @@
     "manifest_version": 3,
     "name": "Duolingo Dark Mode",
     "description": "Personal dark mode extension for Duolingo by Korlian since Duolingo refuses to make an official one.",
-    "version": "0.8.1", 
+    "version": "0.9.0", 
     "author": "Korlian - send.to.korlian@gmail.com",
     "content_scripts": [{
-        "matches": ["https://*.duolingo.com/*"],
+        "matches": ["https://www.duolingo.com/*"],
         "css": ["styles.css"]
     }],
     "icons": {
