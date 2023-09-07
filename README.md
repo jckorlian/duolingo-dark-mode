@@ -10,18 +10,11 @@
 
 # To-do / Known issues
 - **Story mode**
-  - Speech bubbles are white.
   - Various text contrast is, not good.
-  - Choice buttons are white.
+  - Start buttons are white.
 - **Word hints**
-  - Divider lines are in white instead of light grey.
-- **League container on the front page.**
-  - Information icon is circular, but on a white background. Maybe try `-webkit-filter: invert(85%)`
-- **Duolingo Super Ads**
-  - The "Try 2 weeks for free" text sometimes is colored correctly, sometimes not.
+  - Divider lines are in white and thick instead of thin and light grey.
 - **XP goal**
   - The table has not yet been styled to dark mode.
 - **Other**
-- Pages like `Schools`, `Classes`, `Podcasts` have not been styled. They are also currently not a priority.
 - Not all languages have the same type of learning options/tasks, so let me know if you spot something that needs fixing.
-- Text color on hover on the main left navigation does not change to selected color.
