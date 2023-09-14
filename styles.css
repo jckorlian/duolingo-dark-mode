@@ -889,3 +889,20 @@ input[type=checkbox] {
     background-color: #202020 !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
+
+/* LEADERBOARD ----------------------------------------------- */
+
+/* leaderboard gradient (when not on the board) */
+._1khoy:after {
+    background: linear-gradient(0deg, rgb(32,32,32), rgb(255,255,255,0)) !important;
+}
+
+/* Your placement on the board, when not on the board */
+._2svdb {
+    background: #353535 !important;
+}
+
+/* "fake" data entries on leaderboard */
+._3seVy {
+    opacity: 0.1 !important;
+}
