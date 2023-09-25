@@ -934,3 +934,19 @@ input[type=checkbox] {
     --web-ui_button-background-color: rgba(255,255,255,0.1) !important;
     --web-ui_button-border-color: #202020 !important;
 }
+
+/* Chucku fixes - Wait to push before you can confirm */
+._1QEpQ {
+    background: #202020 !important;
+    border-bottom: 1px solid rgba(255,255,225,0.1) !important;
+}
+
+._1F83J {
+    background-color: #202020 !important;
+    border: 1px solid rgba(255,255,255,0.1) !important;
+    color: #888 !important;
+}
+
+._8fhZ7 {
+    color: #FFF !important;
+}
