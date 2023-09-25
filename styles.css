@@ -95,7 +95,7 @@ body {
 }
 
 /* Profile page text: titles */
-h1, h2, h3, h4, .k6hKX, .wWY_2, .hOVdl, ._1VA3z, .hOdmy, .Mr3if, .yXp5g, ._1qdLM, ._1eZU8, ._1V_qq, ._1MTUU, .a1TnJ, ._1CsoA, .saQLX, ._2XgDS, .Km5MI, .F7s-7, ._3HNwo, ._282DW, ._2enos, .GjJQd, ._3oF3u, ._2I8yp, ._1LruX, ._1PuQy, ._3GElo, .oiAw-, .tPtzQ   {
+h1, h2, h3, h4, .k6hKX, .wWY_2, .hOVdl, ._1VA3z, .hOdmy, .Mr3if, .yXp5g, ._1qdLM, ._1eZU8, ._1V_qq, ._1MTUU, .a1TnJ, ._1CsoA, .saQLX, ._2XgDS, .Km5MI, .F7s-7, ._3HNwo, ._282DW, ._2enos, .GjJQd, ._3oF3u, ._2I8yp, ._1LruX, ._1PuQy, ._3GElo, .oiAw-, .tPtzQ, ._2vVPs ._31kUV, ._3hso6   {
     color: #c3c3c3 !important;
 }
 
@@ -644,6 +644,10 @@ Keep an eye on this one, it broke earlier */
     border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
+._3hso6 {
+    background: rgba(255,255,255,0.1) !important;
+}
+
 /* Achievements block on friends profile page */
 ._1QiqV {
     border:1px solid rgba(255, 255, 255, 0.1) !important;
@@ -912,3 +916,15 @@ input[type=checkbox] {
     opacity: 0.1 !important;
 }
 
+/*  Learn - path icons */
+._2AZ_h {
+    --path-level-color: #353535 !important;
+}
+
+._2vVPs ._31kUV {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+._1adRe {
+    filter: opacity(0.1) !important;
+}
