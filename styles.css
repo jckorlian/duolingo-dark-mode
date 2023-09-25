@@ -95,7 +95,7 @@ body {
 }
 
 /* Profile page text: titles */
-h1, h2, h3, h4, .k6hKX, .wWY_2, .hOVdl, ._1VA3z, .hOdmy, .Mr3if, .yXp5g, ._1qdLM, ._1eZU8, ._1V_qq, ._1MTUU, .a1TnJ, ._1CsoA, .saQLX, ._2XgDS, .Km5MI, .F7s-7, ._3HNwo, ._282DW, ._2enos, .GjJQd, ._3oF3u, ._2I8yp, ._1LruX, ._1PuQy, ._3GElo, .oiAw-, .tPtzQ, ._2vVPs ._31kUV, ._3hso6   {
+h1, h2, h3, h4, .k6hKX, .wWY_2, .hOVdl, ._1VA3z, .hOdmy, .Mr3if, .yXp5g, ._1qdLM, ._1eZU8, ._1V_qq, ._1MTUU, .a1TnJ, ._1CsoA, .saQLX, ._2XgDS, .Km5MI, .F7s-7, ._3HNwo, ._282DW, ._2enos, .GjJQd, ._3oF3u, ._2I8yp, ._1LruX, ._1PuQy, ._3GElo, .oiAw-, .tPtzQ, ._2vVPs ._31kUV, ._3hso6, ._3nfq0   {
     color: #c3c3c3 !important;
 }
 
@@ -921,10 +921,16 @@ input[type=checkbox] {
     --path-level-color: #353535 !important;
 }
 
-._2vVPs ._31kUV {
+._2vVPs ._31kUV, ._3nfq0 {
     background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
 ._1adRe {
     filter: opacity(0.1) !important;
+}
+
+/* Button - Start */
+._12StQ {
+    --web-ui_button-background-color: rgba(255,255,255,0.1) !important;
+    --web-ui_button-border-color: #202020 !important;
 }
