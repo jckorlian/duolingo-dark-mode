@@ -714,6 +714,11 @@ input[type=checkbox] {
     background-color: transparent !important;
 }
 
+._3hvfP {
+    background: #202020 !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
 /* Celebrated button on friends updates */
 .t1Hcp {
     --web-ui_button-background-color: rgba(255,255,255,0.1) !important;
@@ -906,3 +911,4 @@ input[type=checkbox] {
 ._3seVy {
     opacity: 0.1 !important;
 }
+
