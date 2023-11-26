@@ -11,9 +11,8 @@
 # To-do / Known issues
 - **Story mode**
   - Various text contrast is, not good.
-  - Start buttons are white.
 - **Word hints**
-  - Divider lines are in white and thick instead of thin and light grey.
+  - Divider lines are in white and thick instead of thin and light grey. I'm struggling to solve this one.
 - **XP goal**
   - The table has not yet been styled to dark mode.
 - **Other**

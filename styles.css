@@ -7,6 +7,20 @@ body {
     border: 0 !important;
 }
 
+/* New color schemes since late 2023 - Slowly try to transition to this */
+:root {
+    --color-iguana: 54,54,54 !important; /* rgba 255,255,255,0.1 */
+
+    --color-sea-sponge: 64,90,45 !important; /* Green #405a2d */
+    --color-walking-fish: 90,45,47 !important; /* Red #5a2d2f */
+
+    
+    /* --color-eel: 195,195,195 !important; #c3c3c3 - title text color */
+    /* --color-black-text: 195,195,195 !important; Black text is now white text */
+
+    /* --color-hare: 136,136,136 !important; #888 - sub text color */
+}
+
 /* Top bar */
 ._3g2C1 {
     background-color: #202020 !important;
@@ -38,7 +52,7 @@ body {
 }
 
 /* League and XP Progress blocks on page "/learn" + monthly badges + friend suggestions */
-._3ZuGY, ._20Ytt, ._3KHXM, ._2Ojej, ._2vsBg, .nsH6y, ._1loOn {
+._3ZuGY, ._20Ytt, ._3KHXM, ._2Ojej, .nsH6y, ._1loOn, ._23JPW {
     /* background-color: rgba(255, 255, 255, 0.05) !important; */
     background-color: transparent !important;
     border: 1px solid rgba(255, 255, 255, 0.1) !important;
@@ -89,18 +103,22 @@ body {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
+._2hN48:last-child {
+    border-bottom: none !important;
+}
+
 /* Quest badge title */
 ._2HB1v, ._26a4V {
     color: #202020 !important;
 }
 
 /* Profile page text: titles */
-h1, h2, h3, h4, .k6hKX, .wWY_2, .hOVdl, ._1VA3z, .hOdmy, .Mr3if, .yXp5g, ._1qdLM, ._1eZU8, ._1V_qq, ._1MTUU, .a1TnJ, ._1CsoA, .saQLX, ._2XgDS, .Km5MI, .F7s-7, ._3HNwo, ._282DW, ._2enos, .GjJQd, ._3oF3u, ._2I8yp, ._1LruX, ._1PuQy, ._3GElo, .oiAw-, .tPtzQ, ._2vVPs ._31kUV, ._3hso6, ._3nfq0   {
+h1, h2, h3, h4, .k6hKX, .wWY_2, .hOVdl, ._1VA3z, .hOdmy, .Mr3if, .yXp5g, ._1qdLM, ._1eZU8, ._1V_qq, ._1MTUU, .a1TnJ, ._1CsoA, .saQLX, ._2XgDS, .Km5MI, .F7s-7, ._3HNwo, ._282DW, ._2enos, .GjJQd, ._3oF3u, ._2I8yp, ._1LruX, ._1PuQy, ._3GElo, .oiAw-, .tPtzQ, ._2vVPs ._31kUV, ._3hso6, ._3nfq0, ._2UxSK, .ERqhK   {
     color: #c3c3c3 !important;
 }
 
 /* Profile page text: subtitles text */
-._1soKk, ._2nvdt, ._315yA, .FRf9s, ._2qakO, .WOZnx:before, ._15qam, ._2Ce44, ._1lJ31, ._3tLz5, ._3YkaQ, .ruQ9B, .XWge1, ._3xynE, ._1LpFA, ._15-md, ._2k8ad, ._1wy04, ._2igzU._1Wk_o, ._2igzU._1Wk_o, ._2igzU._1Wk_o, ._35HQJ, ._1mTpa, ._1Yvlr, ._3Fznl, .JpncV, ._1nO95, ._3mABf, ._1h2TJ, ._3d4Mv, ._1bXEp, .C21s9, ._21MzE, ._39Kkf, ._22J27, ._2mWrZ, ._1psAw {
+._1soKk, ._2nvdt, ._315yA, .FRf9s, ._2qakO, .WOZnx:before, ._15qam, ._2Ce44, ._1lJ31, ._3tLz5, ._3YkaQ, .ruQ9B, .XWge1, ._3xynE, ._1LpFA, ._15-md, ._2k8ad, ._1wy04, ._2igzU._1Wk_o, ._2igzU._1Wk_o, ._2igzU._1Wk_o, ._35HQJ, ._1mTpa, ._1Yvlr, ._3Fznl, .JpncV, ._1nO95, ._3mABf, ._1h2TJ, ._3d4Mv, ._1bXEp, .C21s9, ._21MzE, ._22J27, ._2mWrZ, ._1psAw, ._1paTU, .SqYYX, ._3qq4U, .nbupg, ._3Zk8- {
     color: #888 !important;
 }
 
@@ -125,7 +143,7 @@ hr {
 }
 
 /* Checkpoint badge / correct/wrong answer badge / Quit practice pop-up / XP at end of lesson */
-._17s2H, ._2VrUB, ._3gK3K, ._1qYD7, .xzblA, ._2QKoe, ._11VOS, .OYkrH, .xg-WN, ._35Ena, ._2yJFi, ._3ywLe, ._2Kxv6, ._1v8kS  {
+._17s2H, ._2VrUB, ._3gK3K, ._1qYD7, .xzblA, ._2QKoe, ._11VOS, .OYkrH, .xg-WN, ._35Ena, ._2yJFi, ._3ywLe, ._2Kxv6 {
     background: #202020 !important;
 }
 
@@ -153,13 +171,17 @@ hr {
     height: 25px;
 }
 
-/* Leaderboard top bar */
+/* Leaderboard and lesson complete top bars */
 ._2p1op {
     background-color: #202020 !important;
 }
 
-/* Practice button bottom left (Dumbell) */
-.WOZnx:before {
+._1v8kS {
+    color: #202020 !important;
+}
+
+/* Practice button bottom left (Dumbell) AND back to top button */
+.WOZnx:before, ._1N-oo:before {
     background-color: var(--web-ui_button-background-color,#202020) !important;
     border: 2px solid rgba(255, 255, 255, 0.1) !important;
     border-radius: var(--web-ui_button-border-radius,12px);
@@ -215,7 +237,7 @@ hr {
     color: inherit !important;
 }
 
-._2cQin:after, ._2cQin:before {
+._2cQin:after, ._2cQin:before, ._3vgtc {
     background: rgba(255,255,255,0.1) !important;
     height: 1px !important;
 }
@@ -917,7 +939,7 @@ input[type=checkbox] {
 }
 
 /*  Learn - path icons */
-._2AZ_h {
+._2AZ_h, ._3pULP {
     --path-level-color: #353535 !important;
 }
 
